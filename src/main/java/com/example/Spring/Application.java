@@ -9,8 +9,7 @@ public class Application {
 
 	public static void main(String[] args) {
 	 ApplicationContext context= SpringApplication.run(Application.class, args);
-	Aliens a =context.getBean(Aliens.class);
-	a.code();
+
 		Aliens a1 =context.getBean(Aliens.class);
 		a1.code();
 
